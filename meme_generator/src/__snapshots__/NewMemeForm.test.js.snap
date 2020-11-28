@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewMemeForm basic stuff matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <form>
+      <div
+        class="form-group"
+      >
+        <label>
+          Top Text
+        </label>
+        <input
+          class="form-control"
+          name="topText"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <label>
+          Bottom Text
+        </label>
+        <input
+          class="form-control"
+          name="bottomText"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group"
+      >
+        <label>
+          Image URL
+        </label>
+        <input
+          class="form-control"
+          name="url"
+          value=""
+        />
+      </div>
+      <button
+        class="btn btn-primary"
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

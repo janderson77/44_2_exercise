@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Meme-container"
+  >
+    <span
+      class="top-text"
+    >
+      Wow, such meme
+    </span>
+    <img
+      alt="meme"
+      class="Meme"
+      src="https://crhscountyline.com/wp-content/uploads/2020/03/Capture.png"
+    />
+    <span
+      class="bottom-text"
+    >
+      Much funny. Very wow
+    </span>
+    <button
+      id="meme_removeBtn"
+    >
+      X
+    </button>
+  </div>
+</DocumentFragment>
+`;
