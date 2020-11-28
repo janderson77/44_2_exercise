@@ -6,12 +6,12 @@ const Todo = ({removeTodo, todoText, id}) => {
     }
     return(
         <div id={id} className="Todo">
-            {todoText}
+            <p data-testid="Todo-text" className="Todo-text">{todoText}
             <button 
                 id="Todo-removeBtn" 
                 className="btn btn-danger"
                 onClick={handleRemoveTodo}
-            >Done!</button>
+            >Done!</button></p>
         </div>
     )
 }

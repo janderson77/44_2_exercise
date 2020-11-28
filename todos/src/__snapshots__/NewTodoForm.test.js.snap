@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewTodoForm basics matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <form>
+      <div
+        class="form-group"
+      >
+        <label>
+          Todo Text
+        </label>
+        <input
+          class="form-control"
+          name="todoText"
+          value=""
+        />
+      </div>
+      <button
+        class="btn btn-primary"
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
